@@ -57,12 +57,24 @@ TEST(Queue, not_put_elem_in_full_queue)
 	Queue<int> p(3);
 	p.Put(1);
 	p.Put(2);
-	p.Put(3);
+	p.Put(2);
 	ASSERT_ANY_THROW(p.Put(4));
 }
 TEST(Queue, learn_the_first_element_queue)
 {
 	Queue<int> p(2);
 	p.Put(4);
+	EXPECT_EQ(p.Check(), 4);
+}
+TEST(Queue, get_and_put_elem)
+{
+	Queue<int> p(3);
+	p.Put(2);
+	p.Put(3);
+	p.Put(4);
+	p.Get();
+	p.Get();
+	p.Put(5);
+	p.Put(5);
 	EXPECT_EQ(p.Check(), 4);
 }
