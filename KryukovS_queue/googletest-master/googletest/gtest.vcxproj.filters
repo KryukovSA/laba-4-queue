@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\HP-PC\Desktop\2 семестр лабы иипр\лаба 4 проверка\laba-4-queue\KryukovS_queue\googletest-master\googletest\src\gtest-all.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HP-PC\Desktop\2 семестр лабы иипр\лаба 4 проверка\laba-4-queue\KryukovS_queue\googletest-master\googletest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4EE48C8E-8147-3053-A6F8-07665AC28AD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
