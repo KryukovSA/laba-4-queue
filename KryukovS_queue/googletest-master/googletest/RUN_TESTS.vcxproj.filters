@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HP-PC\Desktop\2 семестр лабы иипр\лаба 4 проверка\laba-4-queue\KryukovS_queue\googletest-master\CMakeFiles\7ab2f753d57e78b1f80ca67deb262cc0\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{762FB268-6B8F-3718-99DD-B832C56D50DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
